@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AppsLinkNative</string>
+    <string name="asset_statements">
+    [{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.moonlit.appslinknative;",
+               "sha256_cert_fingerprints": ["9A:B7:9A:0A:B6:36:3F:8E:76:2B:34:D0:87:8E:13:2D:3C:BB:D5:1E:F7:AF:6D:30:A2:84:B1:02:12:77:19:68"] }
+}]
+    </string>
+
+    <string name="asset_statementsWeb" translatable="false">[{\n  \"relation\": [\"delegate_permission/common.handle_all_urls\"],\n  \"target\": {\n    \"namespace\": \"web\",\n    \"site\": \"https://johnvinodh.github.io\",\n  }\n}]
+    </string>
+</resources>
